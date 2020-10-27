@@ -17,7 +17,7 @@ for i := 0; i < len(x); i++ {
 return mult
 )
 func main() {
-<<<<<<< HEAD
+
 	x := []int{-5, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}
 	fmt.Println("--------------------------------NEW--------------------------------")
 	//summ := 0
@@ -47,8 +47,5 @@ func main() {
 	summ := sum_array(x[0:middle])
 	fmt.Println(x[middle:len(x)])
 	fmt.Println(summ)
-=======
-	fmt.Println("Hello git")
-	fmt.Println.("SSh")
->>>>>>> a3e9e87623dd99a3185af3b1198c23e8e9d65681
+
 }
